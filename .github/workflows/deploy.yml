@@ -6,6 +6,11 @@ on:
     branches:
       - main  # run when pushing to main
 
+permissions:
+  contents: read          # default for checking out repo
+  pages: write            # needed to deploy
+  id-token: write         # needed for deploy-pages action
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
