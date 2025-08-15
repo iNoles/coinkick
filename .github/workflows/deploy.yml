@@ -1,0 +1,37 @@
+---
+name: Deploy React App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # run when pushing to main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repo
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # 2. Set up Node (or Bun)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 21
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: bun install
+
+      # 4. Build the project
+      - name: Build
+        run: bun run build
+
+      # 5. Deploy to GitHub Pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
