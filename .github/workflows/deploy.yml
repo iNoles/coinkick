@@ -28,6 +28,9 @@ jobs:
         run: bun run build
 
       # 5. Deploy to GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
