@@ -19,6 +19,9 @@ CoinKick is an interactive frontend dashboard for crypto and soccer, featuring r
 - Build & Dev: Vite
 - Code Quality: ESLint
 
+## Screenshot
+![Cypto](cypto.png)
+
 ## Getting Started
 
 1. Clone the repository:
