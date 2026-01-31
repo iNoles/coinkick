@@ -1,6 +1,6 @@
 # CoinKick
 
-CoinKick is an interactive frontend dashboard for crypto and soccer, featuring real-time charts and dynamic data visualization. Built with React, Vue, TailwindCSS, and Chart.js, CoinKick lets you track crypto trends and live soccer stats in one sleek interface.
+CoinKick is an interactive frontend dashboard for crypto and soccer, featuring real-time charts and dynamic data visualization. Built with React, TailwindCSS, and Chart.js, CoinKick lets you track crypto trends and live soccer stats in one sleek interface.
 
 ## Features
 
@@ -8,11 +8,11 @@ CoinKick is an interactive frontend dashboard for crypto and soccer, featuring r
 - Live soccer match scores and stats
 - Interactive charts for data visualization
 - Responsive and mobile-friendly design
-- Multi-framework approach: React + Vue
+- Multi-framework approach: React + Vite
 
 ## Tech Stack
 
-- Frontend: React, Vue
+- Frontend: React
 - Styling: TailwindCSS
 - Charts: Chart.js, react-chartjs-2
 - Data fetching: Axios (REST APIs / WebSockets for real-time)
