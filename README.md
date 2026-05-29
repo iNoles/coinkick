@@ -1,14 +1,33 @@
-# CoinKick
+# LivePulse Dashboard
 
-CoinKick is an interactive frontend dashboard for crypto and soccer, featuring real-time charts and dynamic data visualization. Built with React, TailwindCSS, and Chart.js, CoinKick lets you track crypto trends and live soccer stats in one sleek interface.
+A real-time dashboard for tracking crypto market data and live soccer match scores in one unified interface.
+
+Built with modern frontend tooling and real-time data patterns, this project demonstrates live updates, data visualization, and reactive UI design.
+
+## Overview
+
+LivePulse Dashboard provides two live data experiences:
+
+### Crypto Market
+- Real-time cryptocurrency prices
+- Market trends and percentage changes
+- Interactive charts for price movement
+
+### Live Soccer Scores
+- Live match updates
+- Team statistics and game state
+- Real-time score tracking
+
+The goal is to simulate a real-time multi-domain data dashboard using modern web technologies.
 
 ## Features
 
-- Real-time crypto prices and market trends
-- Live soccer match scores and stats
-- Interactive charts for data visualization
-- Responsive and mobile-friendly design
-- Multi-framework approach: React + Vite
+- ⚡Real-time updates (REST + WebSockets)
+- Interactive charts and visual analytics
+- Live data synchronization
+- Responsive UI design
+- Modular component architecture
+- Fast build and development workflow
 
 ## Tech Stack
 
